@@ -250,3 +250,12 @@ section.contact h1 span {
     width: 100%;
     height: 100%;
 }
+
+/* bootstrap */
+.row{
+    height: 50%;
+    background-color:black;
+}
+
+
+
