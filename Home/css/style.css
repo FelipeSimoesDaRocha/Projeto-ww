@@ -21,7 +21,7 @@ html {
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 800;
     color: white;
 }
@@ -37,11 +37,12 @@ p {
 
 header {
     background: black;
-    position: absolute;
     top: 0;
     left: 0;
     right: 0;
-}
+    text-align: right;
+    padding: .6rem 2rem;
+    }
 
 header nav {
     text-align: right;
@@ -230,9 +231,10 @@ section.contact h1 span {
 .videos {
     overflow-x: scroll;
     display: flex;
-    background: black;
-    padding-bottom: 0.5rem;
+    background: red;
+    padding-bottom: 0rem;
     transition: inherit;
+    border: 0;
 }
 
 .responsive-video {
@@ -256,6 +258,3 @@ section.contact h1 span {
     height: 50%;
     background-color:black;
 }
-
-
-
