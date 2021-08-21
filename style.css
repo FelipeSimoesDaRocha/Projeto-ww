@@ -98,10 +98,9 @@ section.hero {
   align-items: center;
   background-image: url(/Design/imgs/warwick-lol.gif);
   background-attachment: fixed;
-  -webkit-background-size:cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
-
 }
 
 section.hero .container {
@@ -152,7 +151,6 @@ section.projects {
   background-color: black;
   /* background-image: url(/Home/Design/imgs/raizes.png); */
   background-attachment: fixed;
-
 }
 
 section.projects .container {
@@ -197,12 +195,9 @@ section.contact {
   align-items: center;
   background-image: url(/Design/imgs/summoner-rift.webp);
   background-attachment: fixed;
-  -webkit-background-size:cover;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
- 
- 
- 
 }
 
 section.contact .container {
@@ -225,12 +220,10 @@ section.contact .right {
 section.contact .right img {
   width: 100%;
   max-width: 400px;
-   background-attachment: fixed;
-  -webkit-background-size:cover;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
- 
-
 }
 
 section.contact h1 span {
@@ -259,4 +252,111 @@ section.contact h1 span {
   padding-left: 0cm;
   padding-top: 0cm;
   padding-bottom: 0cm;
+}
+.footer {
+  background: #000;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ccc;
+}
+.footer h3 {
+  color: #ccc;
+}
+.footer-logo {
+  width: 200px;
+  height: 97px;
+  margin-left: -18px;
+}
+.copyright {
+  color: #ccc;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+.copyright a {
+  color: #269c9c;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.copyright a:hover {
+  color: #fff;
+}
+.res-nav_click {
+  line-height: 38px;
+  font-family: fontawesome;
+  font-size: 38px;
+  text-decoration: none !important;
+  color: #777;
+  font-style: normal;
+  display: none;
+  width: 42px;
+  height: 27px;
+  margin: 20px auto;
+  transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+}
+.res-nav_click:hover,
+.res-nav_click:active,
+.res-nav_click:focus {
+  color: #269c9c !important;
+}
+.portfolioContainer {
+  max-width: 1140px;
+}
+.paddind_footer {
+  padding-bottom: 0 !important;
+}
+.delay-02s {
+  animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+.delay-03s {
+  animation-delay: 0.3s;
+  -webkit-animation-delay: 0.3s;
+}
+.delay-04s {
+  animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+.delay-05s {
+  animation-delay: 0.5s;
+  -webkit-animation-delay: 0.5s;
+}
+.delay-06s {
+  animation-delay: 0.6s;
+  -webkit-animation-delay: 0.6s;
+}
+.delay-07s {
+  animation-delay: 0.7s;
+  -webkit-animation-delay: 0.7s;
+}
+.delay-08s {
+  animation-delay: 0.8s;
+  -webkit-animation-delay: 0.8s;
+}
+.delay-09s {
+  animation-delay: 0.9s;
+  -webkit-animation-delay: 0.9s;
+}
+.delay-1s {
+  animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+}
+.delay-12s {
+  animation-delay: 1.2s;
+  -webkit-animation-delay: 1.2s;
+}
+.title {
+  font-size: 34px;
+  color: #ffff;
+  font-family: montserrat, sans-serif;
+  font-weight: 700;
+  letter-spacing: -1px;
+  margin: 0 0 15px;
+  text-align: center;
+  text-transform: uppercase;
 }
