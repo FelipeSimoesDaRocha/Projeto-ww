@@ -1,6 +1,4 @@
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/d8ffd8bf-9687-4018-bdcf-92101a79d83b/deploy-status)](https://app.netlify.com/sites/rei-warwick/deploys)
-
 
 <h3 align="left"><img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="50"> Languages and Tools:</h3>
 <br/>
