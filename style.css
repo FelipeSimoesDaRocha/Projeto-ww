@@ -96,7 +96,7 @@ section.hero {
   display: flex;
   background-repeat: repeat;
   align-items: center;
-  background-image: url(/Home/Design/imgs/warwick-lol.gif);
+  background-image: url(/Design/imgs/warwick-lol.gif);
   background-attachment: fixed;
   -webkit-background-size:cover;
   background-size: cover;
@@ -195,7 +195,7 @@ section.projects .container .right {
 section.contact {
   display: flex;
   align-items: center;
-  background-image: url(/Home/Design/imgs/summoner-rift.webp);
+  background-image: url(/Design/imgs/summoner-rift.webp);
   background-attachment: fixed;
   -webkit-background-size:cover;
   background-size: cover;
