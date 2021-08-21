@@ -18,9 +18,9 @@ html {
 }
 
 :root {
-  --cor1: rgb(153, 59, 46);
+  --cor1: rgb(130, 47, 197);
   -webkit-margin-top-collapse: collapse;
-  --cor1Active: rgb(247, 138, 98);
+  --cor1Active: rgb(187, 98, 247);
 }
 
 h1 {
@@ -225,7 +225,11 @@ section.contact .right {
 section.contact .right img {
   width: 100%;
   max-width: 400px;
-  
+   background-attachment: fixed;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center;
+ 
 
 }
 
