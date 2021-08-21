@@ -95,7 +95,7 @@ section.hero {
   display: flex;
   background-repeat: repeat;
   align-items: center;
-  background-image: url(/Home/Design/imgs/warwick.jpeg);
+  background-image: url(/Home/Design/imgs/warwick-lol.gif);
   background-attachment: fixed;
   -webkit-background-size:cover;
   background-size: cover;
@@ -149,6 +149,9 @@ section.projects {
   align-items: center;
   color: white;
   background-color: black;
+  background-image: url(/Home/Design/imgs/raizes.png);
+  background-attachment: fixed;
+
 }
 
 section.projects .container {
