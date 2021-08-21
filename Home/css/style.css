@@ -1,3 +1,5 @@
+/* Global --------------------------------------------------------------------------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +18,7 @@ html {
 }
 
 :root {
-  --cor1: rgb(255, 127, 80);
+  --cor1: rgb(153, 59, 46);
   --cor1Active: rgb(247, 138, 98);
 }
 
@@ -34,7 +36,7 @@ p {
   color: yellow;
   font-size: 30px;
 }
-
+/* Global --------------------------------------------------------------------------------------- */
 header {
   background: black;
   top: 0;
@@ -59,6 +61,7 @@ header nav img {
   margin: 0 auto;
   padding: 0 1rem;
 }
+/* sction 1 --------------------------------------------------------------------------------------- */
 
 section {
   padding-top: 65px;
@@ -74,7 +77,7 @@ section .btn {
 .btn {
   padding: 0.8rem 1.7rem;
   background-color: var(--cor1);
-  color: white;
+  color: black;
   text-transform: capitalize;
   text-decoration: none;
   font-size: 1rem;
@@ -92,6 +95,12 @@ section.hero {
   display: flex;
   background-repeat: repeat;
   align-items: center;
+  background-image: url(/Home/Design/imgs/warwick.jpeg);
+  background-attachment: fixed;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center;
+
 }
 
 section.hero .container {
@@ -181,8 +190,15 @@ section.projects .container .right {
 
 section.contact {
   display: flex;
-  background-image: url();
   align-items: center;
+  background-image: url(/Home/Design/imgs/summoner-rift.webp);
+  background-attachment: fixed;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center;
+ 
+ 
+ 
 }
 
 section.contact .container {
