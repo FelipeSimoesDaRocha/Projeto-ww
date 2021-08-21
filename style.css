@@ -96,7 +96,7 @@ section.hero {
   display: flex;
   background-repeat: repeat;
   align-items: center;
-  background-image: url(/Design/imgs/warwick-lol.gif);
+  background-image: url(/Design/Themes/warwick-model1.gif);
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -253,110 +253,114 @@ section.contact h1 span {
   padding-top: 0cm;
   padding-bottom: 0cm;
 }
+
+/* ------------------------------------------------------------------------------------------- */
+
+/* ------------------------------------------------------------------------------------------- */
+
+.contact-info-box {
+  font-size: 15px;
+  margin: 0 0 14px 68px;
+  padding-left: 0;
+}
+.contact-info-box h3 {
+  font-size: 15px;
+  font-weight: 400;
+  float: left;
+  width: 102px;
+  margin-right: 12px;
+  line-height: 28px;
+}
+.contact-info-box h3 i {
+  font-style: normal;
+  font-size: 18px;
+  color: #222;
+  font-family: fontawesome;
+  font-weight: 400;
+  margin-right: 8px;
+}
+.contact-info-box span {
+  line-height: 28px;
+  display: block;
+  overflow: hidden;
+}
+.social-link {
+  padding: 35px 0;
+  margin: 0 0 0 68px;
+  display: block;
+  overflow: hidden;
+  list-style: none;
+}
+.social-link li {
+  float: left;
+  margin-right: 8px;
+}
+.social-link li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 50px;
+  color: #fff;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+ 
+}
+.social-link li a:hover,
+.social-link li a:focus {
+  text-decoration: none;
+}
+.social-link img {
+  width: 30px;
+  height: 30px;
+ 
+
+  
+}
+.twitter a:hover {
+  background: #55acee;
+}
+.facebook a:hover {
+  background: #3b5998;
+}
+.instagram a:hover {
+  background: #dd2a7b;
+}
+.youtube a:hover {
+  background: #d70000;
+}
+.gplus a:hover {
+  background: #dd4b39;
+}
+.github a:hover {
+  background: #5e2091;
+}
+.dribbble a:hover {
+  background: #ea4c89;
+}
+.linkedin a:hover {
+  background: #0e76a8;
+}
+.form {
+  margin: 0 66px 0 30px;
+}
+
+
+
 .footer {
   background: #000;
   padding-top: 20px;
   padding-bottom: 20px;
   color: #ccc;
+  text-align: center;
 }
 .footer h3 {
   color: #ccc;
 }
 .footer-logo {
   width: 200px;
-  height: 97px;
-  margin-left: -18px;
-}
-.copyright {
-  color: #ccc;
-  font-size: 14px;
-  display: block;
-  text-align: center;
-}
-.copyright a {
-  color: #269c9c;
-  font-weight: 600;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-.copyright a:hover {
-  color: #fff;
-}
-.res-nav_click {
-  line-height: 38px;
-  font-family: fontawesome;
-  font-size: 38px;
-  text-decoration: none !important;
-  color: #777;
-  font-style: normal;
-  display: none;
-  width: 42px;
-  height: 27px;
-  margin: 20px auto;
-  transition: all 0.3s ease-in-out;
-  -moz-transition: all 0.3s ease-in-out;
-  -webkit-transition: all 0.3s ease-in-out;
-}
-.res-nav_click:hover,
-.res-nav_click:active,
-.res-nav_click:focus {
-  color: #269c9c !important;
-}
-.portfolioContainer {
-  max-width: 1140px;
-}
-.paddind_footer {
-  padding-bottom: 0 !important;
-}
-.delay-02s {
-  animation-delay: 0.2s;
-  -webkit-animation-delay: 0.2s;
-}
-.delay-03s {
-  animation-delay: 0.3s;
-  -webkit-animation-delay: 0.3s;
-}
-.delay-04s {
-  animation-delay: 0.4s;
-  -webkit-animation-delay: 0.4s;
-}
-.delay-05s {
-  animation-delay: 0.5s;
-  -webkit-animation-delay: 0.5s;
-}
-.delay-06s {
-  animation-delay: 0.6s;
-  -webkit-animation-delay: 0.6s;
-}
-.delay-07s {
-  animation-delay: 0.7s;
-  -webkit-animation-delay: 0.7s;
-}
-.delay-08s {
-  animation-delay: 0.8s;
-  -webkit-animation-delay: 0.8s;
-}
-.delay-09s {
-  animation-delay: 0.9s;
-  -webkit-animation-delay: 0.9s;
-}
-.delay-1s {
-  animation-delay: 1s;
-  -webkit-animation-delay: 1s;
-}
-.delay-12s {
-  animation-delay: 1.2s;
-  -webkit-animation-delay: 1.2s;
-}
-.title {
-  font-size: 34px;
-  color: #ffff;
-  font-family: montserrat, sans-serif;
-  font-weight: 700;
-  letter-spacing: -1px;
-  margin: 0 0 15px;
-  text-align: center;
-  text-transform: uppercase;
+  height: 100px;
+  margin-left: 0px;
+  margin-bottom: 5px;
 }
