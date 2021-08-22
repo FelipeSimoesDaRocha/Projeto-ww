@@ -18,9 +18,9 @@ html {
 }
 
 :root {
-  --cor1: rgb(224, 108, 13);
+  --cor1: rgb(2, 48, 12);
   
-  --cor1Active: rgb(187, 98, 247);
+  --cor1Active: rgb(238, 238, 238);
 }
 
 h1 {
