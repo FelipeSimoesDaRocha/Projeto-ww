@@ -11,11 +11,8 @@
     <link rel="icon" href="/Design/favicon.ico">
 
     <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -36,9 +33,7 @@
             <div class="container-fluid">
                 <a class="navbar-brand" href="/index.html"> WW🐺</a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -50,19 +45,16 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="/pages/build/build.html">build/runas</a>
+                            <a class="nav-link active" aria-current="page" href="/pages/build/build.html">build/runas</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page"
-                                href="/pages/Stream/index.html">Stream</a>
+                            <a class="nav-link active" aria-current="page" href="/pages/Stream/index.html">Stream</a>
                         </li>
 
 
                         <li class="nav-item dropdown">
-                            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                                aria-expanded="false">Loja</a>
+                            <a class="nav-link active dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Loja</a>
 
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/pages/Produtos/Xicaras.html">Xicaras</a></li>
@@ -101,13 +93,27 @@
     </header>
 
 
-    <div id="player div ID>">
 
-        <iframe src="https://player.twitch.tv/?channel=warwickdecrocs&parent=www.example.com" frameborder="0"
-            allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe src="https://www.twitch.tv/warwickdecrocs" frameborder="0" allowfullscreen="true" scrolling="no" height="480" width="854"></iframe>
 
-    </div>
 
+    <script src="https://www.twitch.tv/warwickdecrocs"></script>
+    <div id="<player div ID>"></div>
+    <script type="text/javascript">
+        var options = {
+            height = "480",
+            width = "854",
+            frameborder = "0",
+            allowfullscreen = "true",
+            channel: "<channel ID>",
+            video: "<>",
+            collection: "<collection ID>",
+            // only needed if your site is also embedded on embed.example.com and othersite.example.com
+            parent: ["embed.example.com", "othersite.example.com"]
+        };
+        var player = new Twitch.Player("<player div ID>", options);
+        player.setVolume(0.5);
+    </script>
 </body>
 
 </html>
