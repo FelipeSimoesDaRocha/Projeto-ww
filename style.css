@@ -1,10 +1,9 @@
 /* Global --------------------------------------------------------------------------------------- */
-
 * {
   margin: 0;
   padding: 0;
-  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -18,15 +17,18 @@ html {
   
 }
 
+
 :root {
-  --cor1: rgb(2, 48, 12);
+  --cor1: rgb(250, 72, 27);
+  --cor1Active: rgb(253, 249, 18);
+  --cor2: rgb(27, 60, 250);
   
-  --cor1Active: rgb(238, 238, 238);
 }
+
 
 h1 {
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 700;
   color: white;
 }
 
@@ -35,7 +37,7 @@ h1 span {
 }
 
 p {
-  color: yellow;
+  color: var(--cor1Active);
   font-size: 30px;
 }
 /* Global --------------------------------------------------------------------------------------- */
