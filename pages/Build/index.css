@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-image: linear-gradient(to right, red , yellow);
 }
 
 html {
@@ -24,14 +24,23 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+   
 }
 
 .flex-item{
-    flex: 45%;
+    flex: 40%;
+    border-radius: 30%;
+
    
 }
 .card{
     width: 10vw;
     margin: 5px;
     padding: 5px;
+}
+.img{
+    
+border-radius: 20%;
+
+   
 }
