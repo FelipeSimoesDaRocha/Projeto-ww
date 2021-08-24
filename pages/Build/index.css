@@ -46,3 +46,32 @@ html {
 border-radius: 20%;
 }
 
+
+.contact-info-box {
+    font-size: 15px;
+    margin: 0 0 14px 68px;
+    padding-left: 0;
+}
+
+.contact-info-box h3 {
+    font-size: 15px;
+    font-weight: 400;
+    float: left;
+    width: 102px;
+    margin-right: 12px;
+    line-height: 28px;
+}
+
+.contact-info-box span {
+    line-height: 28px;
+    display: block;
+    overflow: hidden;
+}
+
+.footer {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ccc;
+    text-align: center;
+}

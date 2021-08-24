@@ -295,6 +295,18 @@ section.contact h1 span {
 }
 
 
+.videos {
+  overflow-x: scroll;
+  display: flex;
+  background: red;
+
+  transition: inherit;
+  border: 0;
+  padding-left: 0cm;
+  padding-top: 0cm;
+  padding-bottom: 0cm;
+}
+
 .footer {
   background: #000;
   padding-top: 20px;
@@ -302,4 +314,3 @@ section.contact h1 span {
   color: #ccc;
   text-align: center;
 }
-

@@ -1,10 +1,14 @@
-html {
-    height: 100%;
+*{
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat';
+}
 
+html {
+    /* height: 100%;
     display: grid;
     align-items: center;
-    justify-items: center;
+    justify-items: center; */
 
     --bg: #FCFCFC;
     --bg-panel: #EBEBEB;
@@ -87,21 +91,33 @@ input:checked + label::after {
 label:active:after {
     width: 45px;
 }
+
+
 .contact-info-box {
     font-size: 15px;
     margin: 0 0 14px 68px;
     padding-left: 0;
-  }
-  .contact-info-box h3 {
+}
+
+.contact-info-box h3 {
     font-size: 15px;
     font-weight: 400;
     float: left;
     width: 102px;
     margin-right: 12px;
     line-height: 28px;
-  }
-  .contact-info-box span {
+}
+
+.contact-info-box span {
     line-height: 28px;
     display: block;
     overflow: hidden;
-  }
+}
+
+.footer {
+    background: #000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ccc;
+    text-align: center;
+}
