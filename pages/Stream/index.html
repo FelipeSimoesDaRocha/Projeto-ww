@@ -18,12 +18,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- CSS -->
-    <link rel="stylesheet" href="/style.css">
-
-    <!-- GOOGLE FONTS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.c?family=Poppins:wght@100;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
 
 </head>
 
@@ -80,64 +75,40 @@
     <iframe src="https://www.twitch.tv/warwickdecrocs" frameborder="0" allowfullscreen="true" scrolling="no" height="480" width="854"></iframe>
 
 
-    <script src="https://www.twitch.tv/warwickdecrocs"></script>
-    <div id="<player div ID>"></div>
-    <script type="text/javascript">
-        var options = {
-            height = "480",
-            width = "854",
-            frameborder = "0",
-            allowfullscreen = "true",
-            channel: "<channel ID>",
-            video: "<>",
-            collection: "<collection ID>",
-            // only needed if your site is also embedded on embed.example.com and othersite.example.com
-            parent: ["embed.example.com", "othersite.example.com"]
-        };
-        var player = new Twitch.Player("<player div ID>", options);
-        player.setVolume(0.5);
-    </script>
 
-<footer class="bg-dark text-center text-white">
-    <!-- Grid container -->
-    <div class="container p-4">
-        <!-- Section: Social media -->
-        <section class="mb-4">
-            <!-- Facebook -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-facebook-f"></i></a>
-
-            <!-- Twitter -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-twitter"></i></a>
-
-            <!-- Google -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-google"></i></a>
-
-            <!-- Instagram -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-instagram"></i></a>
-
-            <!-- Linkedin -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-linkedin-in"></i></a>
-
-            <!-- Github -->
-            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
-                    class="fab fa-github"></i></a>
+    <div class="container">
+        <h1>Light / Dark</h1>
+        <div class="toggle">
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch">Toggle</label>
+        </div>
+        <section class="main">
+            <div class="videos">
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/kqJj7vyhCI8"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/-rj3xkNRFhM"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/TQAxArKINaU"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/wgsOr3Hrz14"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+                <div><iframe width="560" height="315" src="https://www.youtube.com/embed/Yku-G-7MTcI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe></div>
+    
         </section>
+          </div>
 
-
-    </div>
-
-
-    <!-- Copyright -->
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0);">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-    </div>
-</footer>
+    <script src="index.js"></script>
 
 <footer class="footer" id="contact">
     <div>

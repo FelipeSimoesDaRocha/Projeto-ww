@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: #000;
 }
 
 html {
@@ -19,8 +19,8 @@ html {
 
 
 :root {
-  --cor1: rgb(250, 72, 27);
-  --cor1Active: rgb(253, 249, 18);
+  --cor1: rgb(248, 252, 17);
+  --cor1Active: rgb(230, 226, 47);
   --cor2: rgb(27, 60, 250);
   
 }
@@ -42,7 +42,7 @@ p {
 }
 /* Global --------------------------------------------------------------------------------------- */
 header {
-  background: black;
+  background-color: #000;
   top: 0;
   left: 0;
   right: 0;
@@ -111,7 +111,7 @@ section.hero {
   display: flex;
   background-repeat: repeat;
   align-items: center;
-  background-image: url(/Design/Themes/warwick-model1.gif);
+  background-image: url(/Design/imgs/warwick-lol-lunar-guardian-splash-art-uhdpaper.com-4K-250.jpg);
   background-attachment: fixed;
   -webkit-background-size: cover;
   background-size: cover;
@@ -163,7 +163,8 @@ section.projects {
   display: flex;
   align-items: center;
   color: white;
-  background-color: black;
+  background-color: #000;
+
   /* background-image: url(/Home/Design/imgs/raizes.png); */
   background-attachment: fixed;
 }
