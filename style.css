@@ -78,17 +78,18 @@ section .btn {
 /* Botão */
 
 .btn {
-  padding: 0.8rem 1.7rem;
   background-color: var(--cor1);
   color: black;
-  text-transform: capitalize;
+  text-transform:capitalize;
   text-decoration: none;
   font-size: 1rem;
   border-radius: 1000px;
-  cursor: pointer;
   font-weight: 600;
   display: inline-block;
   transition: opacity 0.6s;
+  padding: 0.8rem 1.7rem; 
+  cursor: pointer
+
 }
 
 .menu {
